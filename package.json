@@ -1,30 +1,4 @@
 {
-  "_from": "react-slideshow-image",
-  "_id": "react-slideshow-image@3.4.6",
-  "_inBundle": false,
-  "_integrity": "sha512-ymvP842HufzqPj0ZxmrucqavnxWO9tl8HKUiD4tdTbEE24ORVyvHMltVrnhWUKDkSvIgi6E4LfFa1nf9dk7X3A==",
-  "_location": "/react-slideshow-image",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "react-slideshow-image",
-    "name": "react-slideshow-image",
-    "escapedName": "react-slideshow-image",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_shasum": "d8b973001ad282e7290ebda58b8474f061cc072d",
-  "_spec": "react-slideshow-image",
-  "_where": "C:\\Users\\Marius\\Desktop\\Site Vladut\\site",
-  "author": {
-    "name": "Femi Oladeji"
-  },
   "bugs": {
     "url": "https://github.com/dragos5436/npm-package/issues"
   },
@@ -101,7 +75,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dragos5436/npm-package"
+    "url": "git+https://github.com/dragos5436/npm-package.git"
   },
   "scripts": {
     "build": "webpack --config webpack.config.dist.js && uglifycss src/css/styles.css > dist/styles.css   ",
