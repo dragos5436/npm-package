@@ -27,7 +27,7 @@
     "name": "Femi Oladeji"
   },
   "bugs": {
-    "url": "https://github.com/femioladeji/react-slideshow/issues"
+    "url": "https://github.com/dragos5436/npm-package/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -70,7 +70,7 @@
     "lib",
     "dist"
   ],
-  "homepage": "https://react-slideshow.herokuapp.com",
+  "homepage": "https://github.com/dragos5436/npm-package",
   "keywords": [
     "image",
     "react",
@@ -102,14 +102,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/femioladeji/react-slideshow.git"
+    "url": "git+https://github.com/dragos5436/npm-package"
   },
   "scripts": {
     "build": "webpack --config webpack.config.dist.js && uglifycss src/css/styles.css > dist/styles.css   ",
     "dev": "webpack-dev-server",
     "heroku-postbuild": "npm i --only=dev && webpack --prod",
     "precommit": "lint-staged",
-    "prepublishOnly": "NODE_ENV=production babel src --out-dir lib --copy-files && npm run build",
     "start": "serve public -s",
     "test": "jest && codecov"
   },
